@@ -88,7 +88,7 @@ function Predict() {
     try {
 
       const response = await fetch(
-        "http://127.0.0.1:8000/predict",
+        "https://customer-churn-react.onrender.com/predict",
         {
           method: "POST",
 
